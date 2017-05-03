@@ -12,8 +12,8 @@
 
     getDistance:function() {
 
-      var destLat = -36.51988;
-      var destLng = 174.5023078;
+      var destLat = -36.8520592;
+      var destLng = 174.7386203;
 
       var userLat;
       var userLng;
