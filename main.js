@@ -76,8 +76,6 @@
       var pDistance = document.getElementById('distance');
       var pMessage = document.getElementById('message');
 
-      distance = parseInt(distance);
-
       if (distance <= 2) {
 
         message = 'Really close!';
@@ -101,7 +99,7 @@
       }
 
       pMessage.innerHTML = message;
-      pDistance.innerHTML = '(About ' + distance + 'km away)';
+      pDistance.innerHTML = '(About ' + distance.toFixed(2) + 'km away)';
 
       body.className = colourClass;
 
